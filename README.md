@@ -49,9 +49,7 @@ The project uses sample medical images (e.g., `Type3.jpg`). Images are assumed t
 
 ## 📸 Sample Outputs
 
-Images generated at each stage are saved in:
-
-These include:
+The notebook displays the image produced at each stage, including:
 - Original image
 - Cropped image
 - Brightness corrected
@@ -61,7 +59,7 @@ These include:
 ## 🚀 Running the Code
 
 1. Upload the medical image to Google Drive.
-2. Open the [Colab Notebook](https://colab.research.google.com/) and run the cells step-by-step.
+2. Open `MED_angiogram_blockage_detection.ipynb` in [Google Colab](https://colab.research.google.com/) and run the cells step-by-step.
 3. Adjust parameters like `block_size`, `min_contour_area`, and threshold constants for different image types.
 
 ## 📌 Note
