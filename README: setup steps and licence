@@ -58,6 +58,15 @@ The notebook displays the image produced at each stage, including:
 
 ## 🚀 Running the Code
 
+To run locally instead of Colab:
+
+```bash
+pip install -r requirements.txt
+jupyter notebook MED_angiogram_blockage_detection.ipynb
+```
+
+In Colab:
+
 1. Upload the medical image to Google Drive.
 2. Open `MED_angiogram_blockage_detection.ipynb` in [Google Colab](https://colab.research.google.com/) and run the cells step-by-step.
 3. Adjust parameters like `block_size`, `min_contour_area`, and threshold constants for different image types.
